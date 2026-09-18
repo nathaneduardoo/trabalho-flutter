@@ -6,12 +6,12 @@ Trabalho prático desenvolvido para a disciplina de desenvolvimento móvel, impl
 
 | Requisito / Exercício | Arquivo Principal | Linhas | Descrição da Implementação |
 | :--- | :--- | :--- | :--- |
-| **5. Estrutura de Tela** | `lib/screens/home.dart` | Linha 32 a 39 | Uso de `Scaffold`, `AppBar`, `Column` com alinhamentos explícitos e `Expanded` envolvendo a `ListView`. |
+| **5. Estrutura de Tela** | `lib/screens/home.dart` | Linha 32 a 40 | Uso de `Scaffold`, `AppBar`, `Column` com `mainAxisAlignment` e `crossAxisAlignment` explícitos e `Expanded` envolvendo a `ListView`. |
 | **6. Cartão do Item** | `lib/widgets/pet_card.dart` | Linha 15 a 29 | Widget customizado isolado utilizando `Container` com `BoxDecoration` (fundo, bordas arredondadas e sombra). |
-| **7. Lista Dinâmica** | `lib/screens/home.dart` | Linha 62 a 64 | Objeto agrupador `Clinica` inicializado com 6 itens fixos no `initState` e renderizado via `ListView.builder`. |
-| **8. Navegação e Dados** | `lib/screens/home.dart` (linha 69 a 73) & `detalhes_pet.dart` (linha 31 a 43) | Linha 69 a 73 / 31 a 43 | Passagem do objeto `Pet` pelo construtor via `Navigator.push` para exibição de dados detalhados e extras. |
+| **7. Lista Dinâmica** | `lib/screens/home.dart` | Linha 64 a 66 | Objeto agrupador `Clinica` inicializado com 6 itens fixos no `initState` e renderizado via `ListView.builder`. |
+| **8. Navegação e Dados** | `lib/screens/home.dart` (linha 71 a 75) & `detalhes_pet.dart` (linha 31 a 43) | Linha 71 a 75 / 31 a 43 | Passagem do objeto `Pet` pelo construtor via `Navigator.push` para exibição de dados detalhados e extras. |
 | **9. Entrada de Dados** | `lib/screens/cadastro_pet.dart` | Linha 13 a 30 (controllers) e 84 (campo) | Formulário com `TextFormField`, uso de `TextEditingController`, conversão segura (`int.tryParse`) e `dispose()`. |
-| **10. Gerenciamento de Estado** | `lib/screens/home.dart` | Linha 94 a 96 | Tela como `StatefulWidget` e atualização da lista e do total do topo utilizando o método `setState`. |
+| **10. Gerenciamento de Estado** | `lib/screens/home.dart` | Linha 96 a 98 | Tela como `StatefulWidget` e atualização da lista e do total do topo utilizando o método `setState`. |
 
 ## 🚀 Como Executar o Projeto
 
